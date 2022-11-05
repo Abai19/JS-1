@@ -85,5 +85,8 @@
 
 // стрелочные функции, более короткий вариант записи function expression
 console.log(sum(1,4))
-let sum = (a,b)=> a+b;
+let sum = (a,b) => a+b;
+let sum1= function(a,b){ //одна и та же функция
+    return a+b
+}
 console.log(sum(12,5));
