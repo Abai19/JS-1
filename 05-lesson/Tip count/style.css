@@ -1,0 +1,7 @@
+#tip-amount {
+    visibility: hidden;
+
+}
+#tip-amount.show {
+    visibility: visible;
+}

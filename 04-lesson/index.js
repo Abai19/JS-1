@@ -68,3 +68,31 @@ function changeColor(event){
 blocks.forEach(function(block){
     block.addEventListener('click', changeColor)
 })
+
+
+let num;
+console.log(num);
+
+let car = {
+    mark: "Toyota",
+    model: "Camry",
+    variants: [
+        {
+            year:2012,
+            model: "40"
+        },
+        {
+            year:2015,
+            model: "50"
+        }
+    ]
+}
+
+let arr = [1,105,22,15,33,55,44]
+console.log(arr.length)
+document.getElementsByClassName
+
+function sayHello(name,text){
+    alert(name + " " + text)
+}
+sayHello('Oleg')
