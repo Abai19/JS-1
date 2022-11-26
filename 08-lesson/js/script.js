@@ -49,3 +49,12 @@ ul.addEventListener("click", function(ev){
 
 loadTodo();
 deleteTodo();
+
+let age = 16;
+let course = "3"
+console.log(age+course);
+
+sum(4,12);
+let sum  = function (a,b){
+    return a+b
+}
